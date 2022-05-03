@@ -35,7 +35,7 @@ except:
     print("network.WLAN failed")
 #    wifi_ssid = "CrownLinkModem"
 wifi_ssid = "crownlink2"
-wifi_pass = "crownlink"
+wifi_pass = "xxxxxxxxx"
 # print("connecting")
 while not wlan1.isconnected(): # wait until connection made
     try:
