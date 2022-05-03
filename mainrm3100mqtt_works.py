@@ -45,7 +45,7 @@ while not wlan1.isconnected(): # wait until connection made
 
 
 client = MQTTClient("testit","io.adafruit.com",user="petitnoel",
-                    password='aio_UILC887axAMLkjadnUlyMsZMN8Ms',
+                    password='aio_xxxxxxxxxxxxxxxxxxxxxxxxxxx',
                     port=1883)
 client.set_callback(sub_cb)
 client.connect()
